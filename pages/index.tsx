@@ -28,7 +28,9 @@ const Home: NextPage = () => {
             className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Platformă internă &rarr;</h3>
-            <p className='mt-4 text-xl'>Find in-depth information about Next.js features and its API.</p>
+            <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
+              Find in-depth information about Next.js features and its API.
+            </p>
           </a>
 
           <a
@@ -36,7 +38,9 @@ const Home: NextPage = () => {
             className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Comunitate &rarr;</h3>
-            <p className='mt-4 text-xl'>Learn about Next.js in an interactive course with quizzes!</p>
+            <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
+              Learn about Next.js in an interactive course with quizzes!
+            </p>
           </a>
 
           <a
@@ -44,7 +48,9 @@ const Home: NextPage = () => {
             className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Echipă &rarr;</h3>
-            <p className='mt-4 text-xl'>Discover and deploy boilerplate example Next.js projects.</p>
+            <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
+              Discover and deploy boilerplate example Next.js projects.
+            </p>
           </a>
 
           <a
@@ -52,7 +58,9 @@ const Home: NextPage = () => {
             className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Alte zâne &rarr;</h3>
-            <p className='mt-4 text-xl'>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
           </a>
         </div>
       </main>
