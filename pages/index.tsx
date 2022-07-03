@@ -3,14 +3,14 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
+    <div className='flex min-h-screen flex-col items-center justify-center py-2 bg-stars'>
       <Head>
         <title>7-30.ro</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center'>
-        <h1 className='text-6xl font-bold'>
+        <h1 className='text-6xl font-bold text-white'>
           Bine ai venit pe{' '}
           <a className='text-blue-600' href='https://7-30.ro'>
             site-ul 7-30
@@ -22,10 +22,10 @@ const Home: NextPage = () => {
           Alege una dintre <code className='rounded-md bg-gray-100 p-3 font-mono text-lg'>opțiunile de mai jos</code>:
         </p>
 
-        <div className='mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full'>
+        <div className='mt-6 flex max-w-4xl flex-wrap items-center  justify-around sm:w-full'>
           <a
             href='https://nextjs.org/docs'
-            className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
+            className='bg-gray-400 mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Platformă internă &rarr;</h3>
             <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
 
           <a
             href='https://nextjs.org/learn'
-            className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
+            className='mt-6 w-96 rounded-xl bg-gray-400  border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Comunitate &rarr;</h3>
             <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
 
           <a
             href='https://github.com/vercel/next.js/tree/canary/examples'
-            className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
+            className='mt-6 w-96 rounded-xl bg-gray-400 border p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Echipă &rarr;</h3>
             <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
           <a
             href='https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className='mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600'
+            className='mt-6 w-96 rounded-xl border bg-gray-400  p-6 text-left hover:text-blue-600 focus:text-blue-600'
           >
             <h3 className='text-2xl font-bold'>Alte zâne &rarr;</h3>
             <p className='mt-4 text-xl text-gray-400 hover:text-gray-700'>
